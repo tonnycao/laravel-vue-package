@@ -1,0 +1,160 @@
+// Variables
+@import "variables";
+
+@import "../../node_modules/bootstrap/scss/functions";
+@import "../../node_modules/bootstrap/scss/variables";
+@import "../../node_modules/bootstrap/scss/mixins";
+@import "../../node_modules/bootstrap/scss/root";
+@import "../../node_modules/bootstrap/scss/reboot";
+@import "../../node_modules/bootstrap/scss/type";
+@import "../../node_modules/bootstrap/scss/images";
+@import "../../node_modules/bootstrap/scss/code";
+@import "../../node_modules/bootstrap/scss/grid";
+@import "../../node_modules/bootstrap/scss/tables";
+@import "../../node_modules/bootstrap/scss/forms";
+@import "../../node_modules/bootstrap/scss/buttons";
+@import "../../node_modules/bootstrap/scss/transitions";
+@import "../../node_modules/bootstrap/scss/dropdown";
+@import "../../node_modules/bootstrap/scss/button-group";
+@import "../../node_modules/bootstrap/scss/input-group";
+@import "../../node_modules/bootstrap/scss/custom-forms";
+@import "../../node_modules/bootstrap/scss/nav";
+@import "../../node_modules/bootstrap/scss/navbar";
+@import "../../node_modules/bootstrap/scss/card";
+@import "../../node_modules/bootstrap/scss/breadcrumb";
+@import "../../node_modules/bootstrap/scss/pagination";
+@import "../../node_modules/bootstrap/scss/badge";
+@import "../../node_modules/bootstrap/scss/jumbotron";
+@import "../../node_modules/bootstrap/scss/progress";
+@import "../../node_modules/bootstrap/scss/media";
+@import "../../node_modules/bootstrap/scss/list-group";
+@import "../../node_modules/bootstrap/scss/close";
+@import "../../node_modules/bootstrap/scss/modal";
+@import "../../node_modules/bootstrap/scss/tooltip";
+@import "../../node_modules/bootstrap/scss/popover";
+@import "../../node_modules/bootstrap/scss/carousel";
+@import "../../node_modules/bootstrap/scss/utilities";
+@import "../../node_modules/bootstrap/scss/print";
+@import "../../node_modules/bootstrap/scss/toasts";
+@import "../../node_modules/bootstrap/scss/alert";
+@import "../../node_modules/bootstrap/scss/spinners";
+
+//Vendor imports
+@import "imports";
+
+body {
+    -webkit-font-smoothing: antialiased !important;
+    position: relative;
+    min-height: 100vh;
+    margin: 0 !important;
+    padding-bottom: 60px;
+}
+
+.modal-body {
+    background: #f8fafb;
+}
+
+.b-dropdown-text {
+    font-weight:normal;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+.clearfix {
+    overflow: auto;
+}
+
+footer {
+    text-align: center;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    padding: 10px 0;
+}
+
+.footer-color {
+    background-color: #ffffff;
+    border-top: 1px solid #dfdfdf;
+    font-size: 12px;
+}
+
+.table-sm {
+    font-size: 85%;
+}
+
+.navbar-fpt {
+    background-color: #ffffff;
+    border-bottom: 1px solid #dfdfdf;
+    .navbar {
+        padding: 0;
+    }
+
+    .navbar-brand:link,
+    .navbar-brand:hover,
+    .navbar-brand:visited,
+    .navbar-brand:active {
+        color: #383838;
+    }
+
+    .nav-link:link,
+    .nav-link:hover,
+    .nav-link:visited,
+    .nav-link:active,
+    .dropdown-item:link,
+    .dropdown-item:hover,
+    .dropdown-item:visited {
+        color: #383838 !important;
+    }
+
+}
+
+.sidebar-container {
+    width: 260px;
+    float: left;
+    padding-left: 0;
+    padding-top: 20px;
+    padding-left: 40px;
+    top:0;
+    left:0;
+    position: sticky!important;
+}
+
+.sidebar {
+    font-size: 15px;
+    top: 20px;
+    left: 0;
+    list-style: none;
+    padding-inline-start: 0;
+
+    li {
+        padding: 8px;
+        border-bottom: 1px solid #dddddd;
+
+        span {
+            margin-left: 10px;
+        }
+
+        a:hover,
+        a:active,
+        a:link,
+        a:visited {
+            text-decoration: none;
+            color: inherit;
+        }
+    }
+
+    li.sidebar-selected {
+        background: #e7e7e7;
+        border-left: 3px solid #0065ba;
+        font-weight: 500;
+    }
+}
+
+.ux-element {
+    padding-bottom: 60px;
+    margin-bottom: 100px;
+    // border-bottom: 1px solid #e7e7e7;
+}

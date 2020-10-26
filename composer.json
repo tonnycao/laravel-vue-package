@@ -1,0 +1,56 @@
+{
+  "name": "fdt/data-loader",
+  "description": "Laravel package allows end users to manage the regular data loading jobs through UI",
+  "authors": [
+    {
+      "name": "Prashant Balan",
+      "email": "prashant_balan@apple.com"
+    }
+  ],
+  "keywords": [
+    "laravel",
+    "package",
+    "scheduler",
+    "mail-downloader"
+  ],
+  "require": {
+    "php": "^7.1.3",
+    "cb/fiscal": "^1.1",
+    "laravel/framework": "^7.0",
+    "fpt/box-module": "^3.0"
+  },
+  "require-dev": {
+    "orchestra/testbench": "^5.0.0",
+    "phpunit/phpunit": "^8.4|^9.0"
+  },
+  "autoload": {
+    "classmap": [
+      "src/Database/factories"
+    ],
+    "psr-4": {
+      "FDT\\DataLoader\\": "src/"
+    }
+  },
+  "autoload-dev": {
+    "branch-alias": {
+      "dev-master": "master"
+    },
+    "psr-4": {
+      "FDT\\DataLoader\\Tests\\": "tests/"
+    }
+  },
+  "extra": {
+    "laravel": {
+      "providers": [
+        "FDT\\DataLoader\\DataLoaderServiceProvider"
+      ]
+    }
+  },
+  "repositories": [
+    {
+      "type": "composer",
+      "url": "https://packagist.apple.com"
+    }
+  ],
+  "homepage": "https://github.pie.apple.com/FDT/data-loader"
+}

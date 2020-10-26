@@ -1,0 +1,99 @@
+
+// Colors
+//$blue: #2485d2 !default;
+$indigo:  #6610f2 !default;
+$blue:    #2485d2;
+$purple:  #6f42c1 !default;
+$pink:    #e83e8c !default;
+$red: #c73444 !default;
+$orange:  #fd7e14 !default;
+$yellow:  #ffc107 !default;
+$green:   #28a745 !default;
+$teal:    #20c997 !default;
+$cyan:    #17a2b8 !default;
+
+
+$white:    #fff !default;
+$gray-100: #f8f9fa !default;
+$gray-200: #e9ecef !default;
+$gray-300: #dee2e6 !default;
+$gray-400: #ced4da !default;
+$gray-500: #adb5bd !default;
+$gray-600: #6c757d !default;
+$gray-700: #495057 !default;
+$gray-800: #343a40 !default;
+$gray-900: #212529 !default;
+$black:    #000 !default;
+
+
+$primary:       $blue !default;
+$secondary:     $gray-300 !default;
+$success:       $green !default;
+$info:          $cyan !default;
+$warning:       $yellow !default;
+$danger:        $red !default;
+$light:         $gray-200 !default;
+$dark:          $gray-800 !default;
+
+
+$body-bg: #f0f0f0;
+$body-color: $gray-800;
+
+$font-family-sans-serif: system, -apple-system, "Helvetica Neue", "Myriad Set Pro", "Lucida Grande",  "Helvetica", "Arial", "Verdana", "sans-serif" !important;
+
+$font-size-base:              .9rem !default; // Assumes the browser default, typically `16px`
+$font-size-lg:                ($font-size-base * 1.25) !default;
+$font-size-sm:                ($font-size-base * .875) !default;
+
+
+$font-weight-light:           300 !default;
+$font-weight-normal:          400 !default;
+$font-weight-bold:            700 !default;
+
+$font-weight-base:            $font-weight-normal !default;
+$line-height-base:            1.5 !default;
+
+$h1-font-size:                $font-size-base * 1.9 !default;
+$h2-font-size:                $font-size-base * 1.8 !default;
+$h3-font-size:                $font-size-base * 1.6 !default;
+$h4-font-size:                $font-size-base * 1.4 !default;
+$h5-font-size:                $font-size-base * 1.2 !default;
+$h6-font-size:                $font-size-base !default;
+
+
+// Badges
+$badge-font-size:                   100% !default;
+$badge-font-weight:                 $font-weight-normal !default;
+$badge-padding-y:                   .25em !default;
+$badge-padding-x:                   .4em !default;
+
+
+// Alerts
+$alert-border-radius:               0;
+$alert-bg-level:                    -10 !default;
+$alert-border-level:                -9 !default;
+$alert-color-level:                 6 !default;
+$alert-secondary-bg-level:          -5 !default;
+$alert-secondary-border-level:      -4 !default;
+$alert-secondary-color-level:       7 !default;
+
+// Modals
+$modal-content-border-radius:       0;
+
+$modal-xxl:                          1460px !default;
+
+$grid-breakpoints: (
+        xs: 0,
+        sm: 576px,
+        md: 768px,
+        lg: 992px,
+        xl: 1200px,
+        xxl: 1590px
+);
+$container-max-widths: (
+        sm: 540px,
+        md: 720px,
+        lg: 960px,
+        xl: 1140px,
+        xxl: 1560px
+);
